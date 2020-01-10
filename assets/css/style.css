@@ -1,0 +1,28 @@
+
+body{
+    background: rgb(232, 237, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;  
+  }
+
+.logo {
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    background: #4aaaa5;
+    left: 12%;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding: 13px;
+}
+
+.navbar{
+    height: 70px;
+    background: #ffffff;
+    border: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom:  20px;
+}
+
+  
