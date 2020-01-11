@@ -3,24 +3,25 @@
 body{
     background: rgb(232, 237, 238);
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777;  
+    color: #777777;
+    line-height:30px ;  
   }
 
 .logo {
     position: absolute;
     width: 250px;
-    height: 70px;
+    height: 58px;
     background: #4aaaa5;
     text-align: center;
     color: white;
     font-size: 35px;
-    padding: 13px;
+    padding: 8px;
     margin-left: 90px;
+    
 }
 
 
 .navbar{
-    height: 70px;
     background: #ffffff;
     border: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -30,12 +31,15 @@ body{
     margin-right: 90px;
 }
 
-
-.mr-3{
-    height: 250px;
-    width: 250px;
+.nav-link{
+    float: right;
 }
-h1{
+
+.img-thumbnail{
+    max-width: 102%;
+    height: auto;
+}
+h2{
     color:#4aaaa5;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif; 
@@ -58,9 +62,13 @@ p{
  } 
 
  .row{
-    background-color: #ffffff;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+
  }
   
  .container{
- }
+    background-color: #ffffff;
+    overflow:scroll;
+}
