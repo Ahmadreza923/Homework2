@@ -7,6 +7,7 @@ body{
     line-height:30px ;  
   }
 
+  /* About me page's style */
 .logo {
     position: absolute;
     width: 250px;
@@ -16,11 +17,8 @@ body{
     color: white;
     font-size: 35px;
     padding: 8px;
-    margin-left: 90px;
-    
+    margin-left:6.5%;
 }
-
-
 .navbar{
     background: #ffffff;
     border: #cccccc;
@@ -36,8 +34,12 @@ body{
 }
 
 .img-thumbnail{
-    max-width: 102%;
-    height: auto;
+    height: 285px;
+    width: 250px;
+    position: relative;
+    float:left;
+    margin: 20px;
+    margin-bottom: 40px;
 }
 h2{
     color:#4aaaa5;
@@ -47,8 +49,7 @@ h2{
 p{
     text-align: justify;
 }
-  
-.footer{ 
+ .footer{ 
     position: fixed;
     width: 100%;
     height: 40px;
@@ -59,6 +60,8 @@ p{
     bottom: 0%;
     border-top: 4px solid #4aaaa5;
     font-size: 11px;
+    line-height:2px ;  
+
  } 
 
  .row{
@@ -72,3 +75,20 @@ p{
     background-color: #ffffff;
     overflow:scroll;
 }
+  /* End of about me page's style */
+
+
+.box{
+    width: 280px;
+    height: 55px;
+    left:15px;
+    bottom: 40px;
+    background:#4aaaa5;
+    padding: 13px;
+    font-size: 20px;
+}
+.figure-img{
+    height: 300px;
+    width: 300px;
+}
+
