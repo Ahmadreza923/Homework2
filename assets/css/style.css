@@ -61,14 +61,12 @@ p{
     border-top: 4px solid #4aaaa5;
     font-size: 11px;
     line-height:2px ;  
-
  } 
 
  .row{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
-
  }
   
  .container{
@@ -76,8 +74,8 @@ p{
     overflow:scroll;
 }
   /* End of about me page's style */
-
-
+  
+  /* Portfolio page's style */
 .box{
     width: 280px;
     height: 55px;
@@ -91,4 +89,7 @@ p{
     height: 300px;
     width: 300px;
 }
-
+  /* End of portfolio page's style */
+    
+  /* Contact page's style */
+  
